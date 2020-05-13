@@ -1,0 +1,125 @@
+body {
+    margin: 0 1rem;
+    font-family: "Microsoft YaHei";
+}
+
+.header {
+    background: rgb(99,176,229);
+    background: linear-gradient(0deg, rgba(99,176,229,1) 0%, rgba(53,70,150,1) 100%);
+    box-shadow: 0 0 5px #aaa;
+}
+
+.header .content {
+    padding: 1.25rem 8px 1rem 1.25rem;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo.circle {
+    border-radius: 50%;
+}
+
+.logo.round {
+    border-radius: 16px;
+}
+
+.header .nav {
+    display: inline-block;
+    vertical-align: middle;
+    color: #da0805;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+}
+
+.header .nav h1 {
+    margin-left: 3rem;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.75);
+}
+
+.divider {
+    background: #384ba1;
+    height: 3px;
+}
+
+.divider2 {
+    background: #475cbe;
+    height: 3px;
+}
+
+.subhead {
+    font-size: 1.1rem;
+    background-color: #FFCDD2;
+    padding: 10px 10px;
+}
+
+.files {
+    margin-bottom: 1rem;
+}
+
+.files .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2063a1;
+}
+
+.files-header {
+    border: 2px solid rgba(195, 195, 195, .7);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom: none;
+    padding: 11px 10px;
+    background: rgb(227,227,227);
+    background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(248,248,248,1) 100%);
+}
+
+.files .content {
+    border-top: 2px solid rgba(195, 195, 195, .7);
+    border-bottom: 2px solid rgba(195, 195, 195, .5);
+    border-left: 2px solid rgba(195, 195, 195, .5);
+    border-right: 2px solid rgba(195, 195, 195, .5);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.files .list {
+    color: #f31f1f;
+}
+
+.files .download-link {
+    color: rgba(0, 0, 0, 0.88);
+    text-decoration: none;
+}
+
+.files .download-link:hover {
+    text-decoration: underline;
+}
+
+.files .padding {
+    padding: 0 12px;
+}
+
+.files .inline {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+}
+
+footer {
+    background: rgb(99,176,229);
+    background: linear-gradient(0deg, rgba(99,176,229,.5) 0%, rgba(53,70,150,.5) 100%);
+    padding: 2rem 12px;
+    text-align: center;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
